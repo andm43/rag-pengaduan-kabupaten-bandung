@@ -1,0 +1,28 @@
+# ===== Data pengaduan: berisi data pribadi pelapor dan terikat izin instansi =====
+dataset/
+dataset_clean.csv
+corpus_aduan/
+complaint_photos/
+telegram_bot.db*
+
+# ===== Indeks hasil build: besar (>100 MB) dan bisa dibangun ulang =====
+chroma_rag/
+
+# ===== Hasil RAGAS lengkap: memuat konteks aduan hasil retrieval =====
+ragas_results_*.json
+
+# ===== Rahasia =====
+.env
+*.key
+
+# ===== Python / editor =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.ipynb_checkpoints/
+
+# ===== Unggahan dashboard =====
+regulasi_uploads/*
+!regulasi_uploads/.gitkeep
