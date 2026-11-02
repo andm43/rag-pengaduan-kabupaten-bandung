@@ -1,0 +1,2915 @@
+{
+  "dataset": "D:\\Skripsi\\golden_dataset_fix.jsonl",
+  "top_k": 5,
+  "source_scoped_retrieval": false,
+  "sample_count": 100,
+  "mrr": 0.9245614035087719,
+  "mrr_naive": 0.8783333333333333,
+  "answerable_count": 95,
+  "unanswerable_count": 5,
+  "unanswerable_results": [
+    {
+      "id": 70,
+      "question": "Bagaimana cara mendapatkan SIM di Kabupaten Garut?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 71,
+      "question": "Saya ingin tahu apakah ada layanan pengurusan akta kelahiran untuk warga Desa Jati Sari, Kecamatan Jatiuwung, Kota Tangerang di Kabupaten Bandung?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 72,
+      "question": "Di mana saya bisa mengurus pembuatan SIM baru di Kota Surabaya?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 73,
+      "question": "Di mana saya bisa mengurus pembuatan KTP baru untuk wilayah Jakarta Selatan?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "layanan atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 74,
+      "question": "Saya ingin mengajukan pengaduan terkait pelayanan publik di Kota Jakarta, bagaimana prosedurnya?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": 1,
+      "question": "Apa saja jenis pengaduan yang diatur dalam Perbup No 290 Thn 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.6259461164474487,
+      "top_hit_base_score": 0.9259461164474487,
+      "top_hit_rerank_score": 1.6259461164474487,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-014"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 2,
+      "question": "Apa saja tugas Pejabat Penghubung menurut Perbup No 290 Tahun 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-007",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-007",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.6254519939422607,
+      "top_hit_base_score": 0.9254519939422607,
+      "top_hit_rerank_score": 1.6254519939422607,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-007"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 3,
+      "question": "Apa saja peraturan yang menjadi acuan dalam Perbup No 290 Tahun 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.9301886558532715,
+      "top_hit_base_score": 0.9301886558532715,
+      "top_hit_rerank_score": 1.9301886558532715,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-05"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 4,
+      "question": "Apa saja langkah-langkah yang dilakukan dalam penelaahan Pengaduan menurut Perbup No 290 Thn 2023?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-026-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-026-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.5571168994903564,
+      "top_hit_base_score": 0.8971168994903564,
+      "top_hit_rerank_score": 1.5571168994903564,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-026-01"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 5,
+      "question": "Apa saja dasar hukum yang tercantum dalam Lampiran I Peraturan Bupati Bandung Nomor 38 Tahun 2005?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "no-38-tahun-2005-000-00",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-000-00",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 1.8741431832313538,
+      "top_hit_base_score": 0.8741431832313538,
+      "top_hit_rerank_score": 1.8741431832313538,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-05"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 6,
+      "question": "Apa yang dimaksud dengan penataan dokumen atau pengarsipan yang baik menurut LAMPIRAN I PERATURAN BUPATI BANDUNG Nomor 38 Tahun 2005?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-27",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-27",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.0423877477645873,
+      "top_hit_base_score": 0.8923877477645874,
+      "top_hit_rerank_score": 2.0423877477645873,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-27"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 7,
+      "question": "Apa saja langkah-langkah dalam pemantauan dan koordinasi tindak lanjut penanganan pengaduan masyarakat menurut LAMPIRAN I PERATURAN BUPATI BANDUNG Nomor 38 Tahun 2005?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-39",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-39",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.0665940284729003,
+      "top_hit_base_score": 0.9165940284729004,
+      "top_hit_rerank_score": 2.0665940284729003,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-39"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 8,
+      "question": "Apa saja jenis masalah atau pelanggaran yang diatur dalam LAMPIRAN II PERATURAN BUPATI BANDUNG NOMOR 38 TAHUN 2005?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "no-38-tahun-2005-006-03",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-006-03",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.0453438997268676,
+      "top_hit_base_score": 0.8953438997268677,
+      "top_hit_rerank_score": 2.0453438997268676,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-006-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 9,
+      "question": "Apa saja tugas Pejabat Pelaksana dalam Keputusan Bupati tentang Pembentukan Kelembagaan Pengelola Pengaduan Pemerintah?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-09",
+      "matched_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-09",
+      "top_hit_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "top_hit_score": 1.4184488892555236,
+      "top_hit_base_score": 0.8684488892555237,
+      "top_hit_rerank_score": 1.4184488892555236,
+      "expected_source_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah"
+      ],
+      "expected_chunk_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-002-03"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 10,
+      "question": "Apa saja tahap-tahap proses pembuktian menurut LAMPIRAN I PERATURAN BUPATI BANDUNG Nomor 38 Tahun 2005?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-31",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-31",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.047172689437866,
+      "top_hit_base_score": 0.8971726894378662,
+      "top_hit_rerank_score": 2.047172689437866,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-31"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 11,
+      "question": "Bagaimana prosedur penyaluran pengaduan masyarakat menurut LAMPIRAN I PERATURAN BUPATI BANDUNG Nomor 38 Tahun 2005?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-21",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-21",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.061985456943512,
+      "top_hit_base_score": 0.911985456943512,
+      "top_hit_rerank_score": 2.061985456943512,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-21"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 12,
+      "question": "Apa saja tugas Pejabat Pengelola Pengaduan menurut LAMPIRAN II KEPUTUSAN BUPATI BANDUNG?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-002-01",
+      "matched_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-002-01",
+      "top_hit_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "top_hit_score": 1.8879797458648682,
+      "top_hit_base_score": 0.8879797458648682,
+      "top_hit_rerank_score": 1.8879797458648682,
+      "expected_source_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah"
+      ],
+      "expected_chunk_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-002-01"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 13,
+      "question": "Apa saja yang menjadi dasar pertimbangan dalam Perbup No 290 Tahun 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.9245208501815796,
+      "top_hit_base_score": 0.9245208501815796,
+      "top_hit_rerank_score": 1.9245208501815796,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-01"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 14,
+      "question": "Siapa saja kepala dinas yang terlibat dalam LAMPIRAN I KEPUTUSAN BUPATI TENTANG PEMBENTUKAN KELEMBAGAAN PENGELOLA PENGADUAN PEMERINTAH?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-00",
+      "matched_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-00",
+      "top_hit_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "top_hit_score": 1.5057143807411193,
+      "top_hit_base_score": 0.8557143807411194,
+      "top_hit_rerank_score": 1.5057143807411193,
+      "expected_source_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah"
+      ],
+      "expected_chunk_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-02"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 15,
+      "question": "Berapa lama waktu yang diberikan kepada obyek yang diperiksa untuk menyelesaikan tindak lanjut rekomendasi hasil pemeriksaan menurut Perbup No 290 Thn 2023?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-059",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-059",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.9099117493629456,
+      "top_hit_base_score": 0.8499117493629456,
+      "top_hit_rerank_score": 1.9099117493629456,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-043"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 16,
+      "question": "Apa saja kesimpulan yang dapat diberikan oleh Tim Verifikasi berdasarkan Pasal 10 Peraturan Nomor 14 Tahun 2005?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-14-tahun-2005-010-00",
+      "matched_source_id": "no-14-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-14-tahun-2005-010-00",
+      "top_hit_source_id": "no-14-tahun-2005",
+      "top_hit_score": 2.029992663860321,
+      "top_hit_base_score": 0.879992663860321,
+      "top_hit_rerank_score": 2.029992663860321,
+      "expected_source_ids": [
+        "no-14-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-14-tahun-2005-010-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 17,
+      "question": "Apa kewajiban Satuan Kerja Penyelenggara dalam menanggapi laporan pengaduan menurut Peraturan No_29_Tahun_2017?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-012-02",
+      "matched_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-012-02",
+      "top_hit_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "top_hit_score": 1.604352068901062,
+      "top_hit_base_score": 0.904352068901062,
+      "top_hit_rerank_score": 1.604352068901062,
+      "expected_source_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262"
+      ],
+      "expected_chunk_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262-012-02"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 18,
+      "question": "Apa saja yang harus disertakan dalam pemberitahuan ditolaknya pengajuan keberatan menurut Peraturan Nomor 14 Tahun 2005 Pasal 15?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-14-tahun-2005-015",
+      "matched_source_id": "no-14-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-14-tahun-2005-015",
+      "top_hit_source_id": "no-14-tahun-2005",
+      "top_hit_score": 2.069790983200073,
+      "top_hit_base_score": 0.9197909832000732,
+      "top_hit_rerank_score": 2.069790983200073,
+      "expected_source_ids": [
+        "no-14-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-14-tahun-2005-015"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 19,
+      "question": "Apa yang dimaksud dengan Pengaduan menurut Perbup No 290 Thn 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.6244059920310974,
+      "top_hit_base_score": 0.9244059920310974,
+      "top_hit_rerank_score": 1.6244059920310974,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-001-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 20,
+      "question": "Apa saja jenis distribusi Pengaduan yang dilakukan oleh Petugas Pelayanan Pengaduan dalam Perbup No 290 Thn 2023 tentang Pedoman Penyelenggaraan Pengelolaan Pengaduan di Lingkungan Pemkab Bandung?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-000-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.6122800827026367,
+      "top_hit_base_score": 0.9122800827026367,
+      "top_hit_rerank_score": 1.6122800827026367,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-019"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 21,
+      "question": "Siapa pejabat pengelola yang ditunjuk dalam LAMPIRAN I KEPUTUSAN BUPATI TENTANG PEMBENTUKAN KELEMBAGAAN PENGELOLA PENGADUAN PEMERINTAH?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-00",
+      "matched_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-00",
+      "top_hit_source_id": "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah",
+      "top_hit_score": 1.504660153388977,
+      "top_hit_base_score": 0.854660153388977,
+      "top_hit_rerank_score": 1.504660153388977,
+      "expected_source_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah"
+      ],
+      "expected_chunk_ids": [
+        "keputusan-bupati-tentang-pembentukan-kelembagaan-pengelola-pengaduan-pemerintah-001-05"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 22,
+      "question": "Apa tugas Pejabat Pengelola Pengaduan menurut Perbup No 290 Thn 2023?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-006",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-006",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.5950955271720886,
+      "top_hit_base_score": 0.8950955271720886,
+      "top_hit_rerank_score": 1.5950955271720886,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-006"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 23,
+      "question": "Apa saja peraturan yang menjadi dasar pertimbangan dalam Peraturan No_29_Tahun_2017?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-000-00",
+      "matched_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-000-00",
+      "top_hit_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "top_hit_score": 1.7858553361892702,
+      "top_hit_base_score": 0.86585533618927,
+      "top_hit_rerank_score": 1.7858553361892702,
+      "expected_source_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262"
+      ],
+      "expected_chunk_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262-000-03"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 24,
+      "question": "Apa saja tahapan dalam tata cara input pengaduan kedalam SP4N-LAPOR! menurut Perbup No 290 Thn 2023?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-00",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-00",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.6053497910499572,
+      "top_hit_base_score": 0.9053497910499573,
+      "top_hit_rerank_score": 1.6053497910499572,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-00",
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-01"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 25,
+      "question": "Apa yang harus dilakukan dalam tahap konfirmasi menurut LAMPIRAN I PERATURAN BUPATI BANDUNG Nomor 38 Tahun 2005?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-28",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-28",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 2.0369544863700866,
+      "top_hit_base_score": 0.8869544863700867,
+      "top_hit_rerank_score": 2.0369544863700866,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-005-28"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 26,
+      "question": "Apa saja dasar hukum yang menjadi pertimbangan dalam Peraturan Bupati Kabupaten Bandung No. 29 Tahun 2017?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-000-00",
+      "matched_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-29-tahun-2017-68ccd150679b24-71039262-000-00",
+      "top_hit_source_id": "no-29-tahun-2017-68ccd150679b24-71039262",
+      "top_hit_score": 1.8832677006721497,
+      "top_hit_base_score": 0.8832677006721497,
+      "top_hit_rerank_score": 1.8832677006721497,
+      "expected_source_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262"
+      ],
+      "expected_chunk_ids": [
+        "no-29-tahun-2017-68ccd150679b24-71039262-000-01"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 27,
+      "question": "Bagaimana tindak lanjut yang dilakukan untuk aduan jalan rusak di Sekeloa, Kec. Margahayu?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7949422-02",
+      "matched_source_id": "7949422",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7949422-02",
+      "top_hit_source_id": "7949422",
+      "top_hit_score": 1.3013449549674987,
+      "top_hit_base_score": 0.9013449549674988,
+      "top_hit_rerank_score": 1.3013449549674987,
+      "expected_source_ids": [
+        "7949422"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7949422-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 28,
+      "question": "Apa langkah-langkah yang diambil terkait kurangnya tempat parkir di pasar?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8227165-00",
+      "matched_source_id": "8227165",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8227165-00",
+      "top_hit_source_id": "8227165",
+      "top_hit_score": 1.0676443099975585,
+      "top_hit_base_score": 0.8676443099975586,
+      "top_hit_rerank_score": 1.0676443099975585,
+      "expected_source_ids": [
+        "8227165"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8227165-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 29,
+      "question": "Bagaimana instansi menanggapi aduan mengenai pembayaran PBB yang sudah dilakukan tetapi tidak tercatat?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8929931-01",
+      "matched_source_id": "8929931",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8929931-01",
+      "top_hit_source_id": "8929931",
+      "top_hit_score": 1.0544607162475585,
+      "top_hit_base_score": 0.8544607162475586,
+      "top_hit_rerank_score": 1.0544607162475585,
+      "expected_source_ids": [
+        "8929931"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8929931-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 30,
+      "question": "Apa persoalan sampah di pasar tradisional dan bagaimana instansi menanganinya?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8227432-00",
+      "matched_source_id": "8227432",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8227432-00",
+      "top_hit_source_id": "8227432",
+      "top_hit_score": 1.0390947198867797,
+      "top_hit_base_score": 0.8790947198867798,
+      "top_hit_rerank_score": 1.0390947198867797,
+      "expected_source_ids": [
+        "8227432"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8227432-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 31,
+      "question": "Kapan aduan tentang bantuan sosial yang tidak cair ini masuk dan berapa lama ditindaklanjuti?",
+      "behavior": "answer_temporal",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 4,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-7909402-00",
+      "matched_source_id": "7909402",
+      "reciprocal_rank": 0.25,
+      "top_hit_chunk_id": "pengaduan-7909420-00",
+      "top_hit_source_id": "7909420",
+      "top_hit_score": 1.0665190935134887,
+      "top_hit_base_score": 0.8665190935134888,
+      "top_hit_rerank_score": 1.0665190935134887,
+      "expected_source_ids": [
+        "7909402"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7909402-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 32,
+      "question": "Bagaimana proses penanganan aduan mengenai disabilitas warga tidak mampu yang layak mendapatkan BPNT pusat?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-6196698-00",
+      "matched_source_id": "6196698",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6196698-00",
+      "top_hit_source_id": "6196698",
+      "top_hit_score": 1.086182188987732,
+      "top_hit_base_score": 0.8861821889877319,
+      "top_hit_rerank_score": 1.086182188987732,
+      "expected_source_ids": [
+        "6196698"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6196698-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 33,
+      "question": "Kenapa honor enumerator UMKM/Koperasi di Kabupaten Bandung belum cair selama 3 bulan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6033848-01",
+      "matched_source_id": "6033848",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6033848-01",
+      "top_hit_source_id": "6033848",
+      "top_hit_score": 1.1130971431732177,
+      "top_hit_base_score": 0.9130971431732178,
+      "top_hit_rerank_score": 1.1130971431732177,
+      "expected_source_ids": [
+        "6033848"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6033848-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 34,
+      "question": "Fasilitas yang ada kurang tertata dengan baik, bagaimana tanggapan dari instansi terkait?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 2,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-9343786-02",
+      "matched_source_id": "9343786",
+      "reciprocal_rank": 0.5,
+      "top_hit_chunk_id": "pengaduan-6021043-00",
+      "top_hit_source_id": "6021043",
+      "top_hit_score": 1.0333605527877807,
+      "top_hit_base_score": 0.8333605527877808,
+      "top_hit_rerank_score": 1.0333605527877807,
+      "expected_source_ids": [
+        "9343786"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9343786-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 35,
+      "question": "Bagaimana tindak lanjut terkait keluhan biaya imunisasi berbayar di posyandu?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7477609-01",
+      "matched_source_id": "7477609",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7477609-01",
+      "top_hit_source_id": "7477609",
+      "top_hit_score": 1.0919247388839721,
+      "top_hit_base_score": 0.8919247388839722,
+      "top_hit_rerank_score": 1.0919247388839721,
+      "expected_source_ids": [
+        "7477609"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7477609-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 36,
+      "question": "Bagaimana tindak lanjut yang dilakukan terkait kemacetan berulang di depan SDIT Altaftazani?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-9655651-01",
+      "matched_source_id": "9655651",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-9655651-01",
+      "top_hit_source_id": "9655651",
+      "top_hit_score": 1.0746557235717773,
+      "top_hit_base_score": 0.8746557235717773,
+      "top_hit_rerank_score": 1.0746557235717773,
+      "expected_source_ids": [
+        "9655651"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9655651-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 37,
+      "question": "Bagaimana tindak lanjut dari laporan mengenai penjualan ilegal BBM bersubsidi di Kampung Lampegan?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8328937-00",
+      "matched_source_id": "8328937",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8328937-00",
+      "top_hit_source_id": "8328937",
+      "top_hit_score": 1.09606112241745,
+      "top_hit_base_score": 0.89606112241745,
+      "top_hit_rerank_score": 1.09606112241745,
+      "expected_source_ids": [
+        "8328937"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8328937-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 38,
+      "question": "Bagaimana tindak lanjut laporan saya soal gagal lolos Prakerja karena NIK terdaftar sebagai penerima bansos Kemensos, dari warga Margaasih?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5842190-00",
+      "matched_source_id": "5842190",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5842190-00",
+      "top_hit_source_id": "5842190",
+      "top_hit_score": 1.2983632922172545,
+      "top_hit_base_score": 0.8983632922172546,
+      "top_hit_rerank_score": 1.2983632922172545,
+      "expected_source_ids": [
+        "5842190"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5842190-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 39,
+      "question": "Bagaimana tindak lanjut dari laporan saya mengenai tidak mendapatkan hak gaji?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5495636-00",
+      "matched_source_id": "5495636",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5495636-00",
+      "top_hit_source_id": "5495636",
+      "top_hit_score": 1.0536896109580993,
+      "top_hit_base_score": 0.8536896109580994,
+      "top_hit_rerank_score": 1.0536896109580993,
+      "expected_source_ids": [
+        "5495636"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5495636-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 40,
+      "question": "Kenapa ada biaya admin untuk membuat SKD dan bagaimana proses pembuatannya?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5553173-00",
+      "matched_source_id": "5553173",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5553173-00",
+      "top_hit_source_id": "5553173",
+      "top_hit_score": 1.091222357749939,
+      "top_hit_base_score": 0.891222357749939,
+      "top_hit_rerank_score": 1.091222357749939,
+      "expected_source_ids": [
+        "5553173"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5553173-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 41,
+      "question": "Bagaimana tanggapan pihak instansi terhadap aduan tentang SDN Cipeundeuy yang membutuhkan lapangan upacara dan peremajaan ruang guru?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6212926-01",
+      "matched_source_id": "6212926",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6212926-01",
+      "top_hit_source_id": "6212926",
+      "top_hit_score": 1.2866463303565978,
+      "top_hit_base_score": 0.8866463303565979,
+      "top_hit_rerank_score": 1.2866463303565978,
+      "expected_source_ids": [
+        "6212926"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6212926-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 42,
+      "question": "Kenapa poli gigi tidak muncul di daftar online dan apa yang dilakukan untuk mengatasi masalah ini?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8825351-00",
+      "matched_source_id": "8825351",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8825351-00",
+      "top_hit_source_id": "8825351",
+      "top_hit_score": 1.0993773460388183,
+      "top_hit_base_score": 0.8993773460388184,
+      "top_hit_rerank_score": 1.0993773460388183,
+      "expected_source_ids": [
+        "8825351"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8825351-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 43,
+      "question": "Kapan aduan PJU yang padam lagi setelah sempat diperbaiki di Soreang ini masuk, dan berapa lama ditindaklanjuti?",
+      "behavior": "answer_temporal",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8866381-00",
+      "matched_source_id": "8866381",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8866381-00",
+      "top_hit_source_id": "8866381",
+      "top_hit_score": 1.2781704902648925,
+      "top_hit_base_score": 0.8781704902648926,
+      "top_hit_rerank_score": 1.2781704902648925,
+      "expected_source_ids": [
+        "8866381"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8866381-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 44,
+      "question": "Bagaimana langkah-langkah yang diambil untuk menindaklanjuti aduan tentang penanganan banjir di Komplek Bumi Harapan?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8479796-00",
+      "matched_source_id": "8479796",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8479796-00",
+      "top_hit_source_id": "8479796",
+      "top_hit_score": 1.0625807166099548,
+      "top_hit_base_score": 0.8625807166099548,
+      "top_hit_rerank_score": 1.0625807166099548,
+      "expected_source_ids": [
+        "8479796"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8479796-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 45,
+      "question": "Apa yang terjadi dengan aduan orang hilang N.O.A.O. dan bagaimana tindak lanjutnya?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8221162-00",
+      "matched_source_id": "8221162",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8221162-00",
+      "top_hit_source_id": "8221162",
+      "top_hit_score": 0.9809449019696977,
+      "top_hit_base_score": 0.8209449019696977,
+      "top_hit_rerank_score": 0.9809449019696977,
+      "expected_source_ids": [
+        "8221162"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8221162-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 46,
+      "question": "Bagaimana tindak lanjut terhadap masalah jalan gang yang turun ke bawah di Desa Banjaran Wetan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-7881997-00",
+      "matched_source_id": "7881997",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7881997-00",
+      "top_hit_source_id": "7881997",
+      "top_hit_score": 1.2722535967826842,
+      "top_hit_base_score": 0.8722535967826843,
+      "top_hit_rerank_score": 1.2722535967826842,
+      "expected_source_ids": [
+        "7881997"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7881997-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 47,
+      "question": "Bagaimana proses tindak lanjut untuk aduan tentang sertifikat tanah gratis yang belum diterima?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8828296-02",
+      "matched_source_id": "8828296",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8828296-02",
+      "top_hit_source_id": "8828296",
+      "top_hit_score": 1.0598108887672424,
+      "top_hit_base_score": 0.8598108887672424,
+      "top_hit_rerank_score": 1.0598108887672424,
+      "expected_source_ids": [
+        "8828296"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8828296-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 48,
+      "question": "Bagaimana tanggapan Dinas Kesehatan terkait pendaftaran yang sudah tutup di Puskesmas Rancamanyar?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5918896-00",
+      "matched_source_id": "5918896",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5918896-00",
+      "top_hit_source_id": "5918896",
+      "top_hit_score": 1.0860757946968078,
+      "top_hit_base_score": 0.8860757946968079,
+      "top_hit_rerank_score": 1.0860757946968078,
+      "expected_source_ids": [
+        "5918896"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5918896-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 49,
+      "question": "Kenapa proses akte kelahiran di Kecamatan Ciparay bisa sangat lama?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6025444-01",
+      "matched_source_id": "6025444",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6025444-01",
+      "top_hit_source_id": "6025444",
+      "top_hit_score": 1.32267769575119,
+      "top_hit_base_score": 0.9226776957511902,
+      "top_hit_rerank_score": 1.32267769575119,
+      "expected_source_ids": [
+        "6025444"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6025444-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 50,
+      "question": "Kenapa bantuan PKH atas nama C.A. tidak diperpanjang dan bagaimana tindak lanjutnya?",
+      "behavior": "multi_hop",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8096638-01",
+      "matched_source_id": "8096638",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8096638-01",
+      "top_hit_source_id": "8096638",
+      "top_hit_score": 1.0646607398986816,
+      "top_hit_base_score": 0.8646607398986816,
+      "top_hit_rerank_score": 1.0646607398986816,
+      "expected_source_ids": [
+        "8096638"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8096638-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 51,
+      "question": "Kapan aduan tentang parkir liar di sekitar Tahura ditindaklanjuti?",
+      "behavior": "answer_temporal",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8042350-01",
+      "matched_source_id": "8042350",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8042350-01",
+      "top_hit_source_id": "8042350",
+      "top_hit_score": 1.0638556599617004,
+      "top_hit_base_score": 0.8638556599617004,
+      "top_hit_rerank_score": 1.0638556599617004,
+      "expected_source_ids": [
+        "8042350"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8042350-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 52,
+      "question": "Bagaimana tindak lanjut dari laporan tentang perselingkuhan suami saya?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7202086-05",
+      "matched_source_id": "7202086",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7202086-05",
+      "top_hit_source_id": "7202086",
+      "top_hit_score": 1.064297866821289,
+      "top_hit_base_score": 0.8642978668212891,
+      "top_hit_rerank_score": 1.064297866821289,
+      "expected_source_ids": [
+        "7202086"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7202086-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 53,
+      "question": "Bagaimana prosedur untuk mendapatkan informasi lebih lanjut tentang penerimaan lowongan kerja bidang desain kemasan?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8254437-00",
+      "matched_source_id": "8254437",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8254437-00",
+      "top_hit_source_id": "8254437",
+      "top_hit_score": 1.0837180137634277,
+      "top_hit_base_score": 0.8837180137634277,
+      "top_hit_rerank_score": 1.0837180137634277,
+      "expected_source_ids": [
+        "8254437"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8254437-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 54,
+      "question": "Kapan aduan tentang tumpukan sampah di Kampung Sawah Desa Gandasari ditindaklanjuti?",
+      "behavior": "answer_temporal",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-9629351-00",
+      "matched_source_id": "9629351",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-9629351-00",
+      "top_hit_source_id": "9629351",
+      "top_hit_score": 1.07830650806427,
+      "top_hit_base_score": 0.87830650806427,
+      "top_hit_rerank_score": 1.07830650806427,
+      "expected_source_ids": [
+        "9629351"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9629351-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 55,
+      "question": "Bagaimana tindak lanjut dari aduan tentang suara azan yang bising di daerah Ciburial Bandung?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-6677578-00",
+      "matched_source_id": "6677578",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6677578-00",
+      "top_hit_source_id": "6677578",
+      "top_hit_score": 1.1045044183731079,
+      "top_hit_base_score": 0.9045044183731079,
+      "top_hit_rerank_score": 1.1045044183731079,
+      "expected_source_ids": [
+        "6677578"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6677578-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 56,
+      "question": "Bagaimana tindak lanjut atas aduan bantuan tidak tepat sasaran di desa Bojongkunci?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5314658-00",
+      "matched_source_id": "5314658",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5314658-00",
+      "top_hit_source_id": "5314658",
+      "top_hit_score": 1.07409770488739,
+      "top_hit_base_score": 0.8740977048873901,
+      "top_hit_rerank_score": 1.07409770488739,
+      "expected_source_ids": [
+        "5314658"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5314658-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 57,
+      "question": "Bagaimana tindak lanjut terhadap laporan nepotisme di lingkungan Dinas PUTR Kabupaten Bandung?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-7660965-00",
+      "matched_source_id": "7660965",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7660965-00",
+      "top_hit_source_id": "7660965",
+      "top_hit_score": 1.0749870657920837,
+      "top_hit_base_score": 0.8749870657920837,
+      "top_hit_rerank_score": 1.0749870657920837,
+      "expected_source_ids": [
+        "7660965"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7660965-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 58,
+      "question": "Program Petani Milenial itu masih berlanjut atau tidak?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-9338296-00",
+      "matched_source_id": "9338296",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-9338296-00",
+      "top_hit_source_id": "9338296",
+      "top_hit_score": 1.0753466010093689,
+      "top_hit_base_score": 0.8753466010093689,
+      "top_hit_rerank_score": 1.0753466010093689,
+      "expected_source_ids": [
+        "9338296"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9338296-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 59,
+      "question": "Bagaimana tindak lanjut dari aduan tentang tumpukan sampah di sungai di Bojongsoang?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8742771-00",
+      "matched_source_id": "8742771",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8742771-00",
+      "top_hit_source_id": "8742771",
+      "top_hit_score": 1.2842298984527587,
+      "top_hit_base_score": 0.8842298984527588,
+      "top_hit_rerank_score": 1.2842298984527587,
+      "expected_source_ids": [
+        "8742771"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8742771-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 60,
+      "question": "Bagaimana proses penanganan aduan mengenai lampu penerangan jalan umum yang padam di Jalan Raya Dayeuhkolot?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-5770385-01",
+      "matched_source_id": "5770385",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5770385-01",
+      "top_hit_source_id": "5770385",
+      "top_hit_score": 1.2842641115188598,
+      "top_hit_base_score": 0.8842641115188599,
+      "top_hit_rerank_score": 1.2842641115188598,
+      "expected_source_ids": [
+        "5770385"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5770385-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 61,
+      "question": "Bagaimana proses penanganan aduan tentang pembakaran sampah yang berulang di Komplek Bali Garden City?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8230258-00",
+      "matched_source_id": "8230258",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8230258-00",
+      "top_hit_source_id": "8230258",
+      "top_hit_score": 1.0794670104980468,
+      "top_hit_base_score": 0.8794670104980469,
+      "top_hit_rerank_score": 1.0794670104980468,
+      "expected_source_ids": [
+        "8230258"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8230258-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 62,
+      "question": "Bagaimana proses penanganan terkait pungutan liar parkir di Tahura yang saya laporkan?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8603696-01",
+      "matched_source_id": "8603696",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8603696-01",
+      "top_hit_source_id": "8603696",
+      "top_hit_score": 1.0831854462623596,
+      "top_hit_base_score": 0.8831854462623596,
+      "top_hit_rerank_score": 1.0831854462623596,
+      "expected_source_ids": [
+        "8603696"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8603696-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 63,
+      "question": "Bagaimana tindak lanjut untuk aduan PJU padam yang sudah 10 hari di jalan raya Rancaekek?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-5683608-01",
+      "matched_source_id": "5683608",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5683608-01",
+      "top_hit_source_id": "5683608",
+      "top_hit_score": 1.2549938797950744,
+      "top_hit_base_score": 0.8549938797950745,
+      "top_hit_rerank_score": 1.2549938797950744,
+      "expected_source_ids": [
+        "5683608"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5683608-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 64,
+      "question": "Bagaimana tindak lanjut terkait penyalahgunaan situs pemerintah yang dilaporkan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": "pengaduan-6358511-02",
+      "top_hit_source_id": "6358511",
+      "top_hit_score": 1.040807318687439,
+      "top_hit_base_score": 0.840807318687439,
+      "top_hit_rerank_score": 1.040807318687439,
+      "expected_source_ids": [
+        "7839979"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7839979-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 65,
+      "question": "Kapan aduan tentang kerumunan warga akibat atraksi kesenian benjang ini ditindaklanjuti?",
+      "behavior": "answer_temporal",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5711070-00",
+      "matched_source_id": "5711070",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5711070-00",
+      "top_hit_source_id": "5711070",
+      "top_hit_score": 1.0695492148399353,
+      "top_hit_base_score": 0.8695492148399353,
+      "top_hit_rerank_score": 1.0695492148399353,
+      "expected_source_ids": [
+        "5711070"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5711070-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 66,
+      "question": "Bagaimana tanggapan puskesmas terkait keluhan layanan yang saya sampaikan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 4,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8932341-03",
+      "matched_source_id": "8932341",
+      "reciprocal_rank": 0.25,
+      "top_hit_chunk_id": "pengaduan-9082191-02",
+      "top_hit_source_id": "9082191",
+      "top_hit_score": 1.069454026222229,
+      "top_hit_base_score": 0.869454026222229,
+      "top_hit_rerank_score": 1.069454026222229,
+      "expected_source_ids": [
+        "8932341"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8932341-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 67,
+      "question": "Bagaimana proses penanganan kesalahan cetak nama pada SIPP saya?",
+      "behavior": "answer_procedure",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8214715-01",
+      "matched_source_id": "8214715",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8214715-01",
+      "top_hit_source_id": "8214715",
+      "top_hit_score": 1.0475046753883361,
+      "top_hit_base_score": 0.8475046753883362,
+      "top_hit_rerank_score": 1.0475046753883361,
+      "expected_source_ids": [
+        "8214715"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8214715-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 68,
+      "question": "Jam mulai pelayanan MOP besok itu jam berapa dan apa yang perlu dibawa?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-8217700-00",
+      "matched_source_id": "8217700",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8217700-00",
+      "top_hit_source_id": "8217700",
+      "top_hit_score": 1.0915427923202514,
+      "top_hit_base_score": 0.8915427923202515,
+      "top_hit_rerank_score": 1.0915427923202514,
+      "expected_source_ids": [
+        "8217700"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8217700-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 69,
+      "question": "Apakah Dinas Pertanian Kabupaten Bandung membuka kesempatan magang untuk mahasiswa?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 4,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-9463971-02",
+      "matched_source_id": "9463971",
+      "reciprocal_rank": 0.25,
+      "top_hit_chunk_id": "pengaduan-9579546-02",
+      "top_hit_source_id": "9579546",
+      "top_hit_score": 1.1043555855751037,
+      "top_hit_base_score": 0.9043555855751038,
+      "top_hit_rerank_score": 1.1043555855751037,
+      "expected_source_ids": [
+        "9463971"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9463971-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 70,
+      "question": "Bagaimana cara mendapatkan SIM di Kabupaten Garut?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 71,
+      "question": "Saya ingin tahu apakah ada layanan pengurusan akta kelahiran untuk warga Desa Jati Sari, Kecamatan Jatiuwung, Kota Tangerang di Kabupaten Bandung?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 72,
+      "question": "Di mana saya bisa mengurus pembuatan SIM baru di Kota Surabaya?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 73,
+      "question": "Di mana saya bisa mengurus pembuatan KTP baru untuk wilayah Jakarta Selatan?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "layanan atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 74,
+      "question": "Saya ingin mengajukan pengaduan terkait pelayanan publik di Kota Jakarta, bagaimana prosedurnya?",
+      "behavior": "not_found",
+      "answerable": false,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": null,
+      "top_hit_source_id": null,
+      "top_hit_score": null,
+      "top_hit_base_score": null,
+      "top_hit_rerank_score": null,
+      "expected_source_ids": [],
+      "expected_chunk_ids": [],
+      "retrieval_filters": {
+        "jenis": "regulasi atau pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 75,
+      "question": "Gimana sih tanggapan instansi soal PBB yang udah dibayar tapi kok gak tercatat?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8929931-01",
+      "matched_source_id": "8929931",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8929931-01",
+      "top_hit_source_id": "8929931",
+      "top_hit_score": 0.9954096412658692,
+      "top_hit_base_score": 0.8354096412658691,
+      "top_hit_rerank_score": 0.9954096412658692,
+      "expected_source_ids": [
+        "8929931"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8929931-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 76,
+      "question": "gmn sih instansi ngebales permintaan info no telp utk BKAD Kota Bdg?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-9361081-00",
+      "matched_source_id": "9361081",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-9361081-00",
+      "top_hit_source_id": "9361081",
+      "top_hit_score": 1.0541363477706909,
+      "top_hit_base_score": 0.8541363477706909,
+      "top_hit_rerank_score": 1.0541363477706909,
+      "expected_source_ids": [
+        "9361081"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-9361081-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 77,
+      "question": "Kumaha tanggapan instansi ngeunaan PBB anu tos dibayar tapi tidak tercatat?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-8929931-01",
+      "matched_source_id": "8929931",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-8929931-01",
+      "top_hit_source_id": "8929931",
+      "top_hit_score": 1.0110884642601012,
+      "top_hit_base_score": 0.8510884642601013,
+      "top_hit_rerank_score": 1.0110884642601012,
+      "expected_source_ids": [
+        "8929931"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-8929931-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 78,
+      "question": "Gmn ya honor enumerator UMKM/Koperasi di Kab. Bandung blm cair sdh 3 bln?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6033848-01",
+      "matched_source_id": "6033848",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6033848-01",
+      "top_hit_source_id": "6033848",
+      "top_hit_score": 1.0815154433250427,
+      "top_hit_base_score": 0.8815154433250427,
+      "top_hit_rerank_score": 1.0815154433250427,
+      "expected_source_ids": [
+        "6033848"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6033848-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 79,
+      "question": "Kumaha atuh, kunaon honor enumerator UMKM/Koperasi di Kabupaten Bandung can cair salami 3 bulan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6033848-01",
+      "matched_source_id": "6033848",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6033848-01",
+      "top_hit_source_id": "6033848",
+      "top_hit_score": 1.1079214930534362,
+      "top_hit_base_score": 0.9079214930534363,
+      "top_hit_rerank_score": 1.1079214930534362,
+      "expected_source_ids": [
+        "6033848"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6033848-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 80,
+      "question": "Gimana sih kelanjutannya soal keluhan biaya imunisasi berbayar di posyandu?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7477609-01",
+      "matched_source_id": "7477609",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7477609-01",
+      "top_hit_source_id": "7477609",
+      "top_hit_score": 1.0407888627052306,
+      "top_hit_base_score": 0.8807888627052307,
+      "top_hit_rerank_score": 1.0407888627052306,
+      "expected_source_ids": [
+        "7477609"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7477609-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 81,
+      "question": "Gmn tindak lanjutan ttg keluhan biaya imunisasi brbayar di posyandu?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7477609-01",
+      "matched_source_id": "7477609",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7477609-01",
+      "top_hit_source_id": "7477609",
+      "top_hit_score": 1.0417000985145568,
+      "top_hit_base_score": 0.8817000985145569,
+      "top_hit_rerank_score": 1.0417000985145568,
+      "expected_source_ids": [
+        "7477609"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7477609-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 82,
+      "question": "Kumaha tindak lanjut ngeunaan keluhan biaya imunisasi berbayar di posyandu, teh?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7477609-01",
+      "matched_source_id": "7477609",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7477609-01",
+      "top_hit_source_id": "7477609",
+      "top_hit_score": 1.0904364109039306,
+      "top_hit_base_score": 0.8904364109039307,
+      "top_hit_rerank_score": 1.0904364109039306,
+      "expected_source_ids": [
+        "7477609"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7477609-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 83,
+      "question": "Kpn Peraturan No 38 Thn 2005 mulainya brp?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "no-38-tahun-2005-005-00",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-00",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 1.4084831857681275,
+      "top_hit_base_score": 0.8684831857681274,
+      "top_hit_rerank_score": 1.4084831857681275,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-004"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 84,
+      "question": "Iraha Peraturan Nomor 38 Tahun 2005 mah kedah berlaku?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "no-38-tahun-2005-004",
+      "matched_source_id": "no-38-tahun-2005",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "no-38-tahun-2005-004",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 1.7689694595336916,
+      "top_hit_base_score": 0.8489694595336914,
+      "top_hit_rerank_score": 1.7689694595336916,
+      "expected_source_ids": [
+        "no-38-tahun-2005"
+      ],
+      "expected_chunk_ids": [
+        "no-38-tahun-2005-004"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 85,
+      "question": "Gimana kelanjutan laporan saya soal tidak mendapatkan hak gaji di Cicalengka?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-5495636-01",
+      "matched_source_id": "5495636",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5495636-01",
+      "top_hit_source_id": "5495636",
+      "top_hit_score": 1.2901792764663695,
+      "top_hit_base_score": 0.8901792764663696,
+      "top_hit_rerank_score": 1.2901792764663695,
+      "expected_source_ids": [
+        "5495636"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5495636-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 86,
+      "question": "Bagaimana tindak lanjot dari lapooran sy mengenai tdk dpt hak gaji?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 2,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5495636-00",
+      "matched_source_id": "5495636",
+      "reciprocal_rank": 0.5,
+      "top_hit_chunk_id": "pengaduan-5513132-00",
+      "top_hit_source_id": "5513132",
+      "top_hit_score": 1.0479899168014526,
+      "top_hit_base_score": 0.8479899168014526,
+      "top_hit_rerank_score": 1.0479899168014526,
+      "expected_source_ids": [
+        "5495636"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5495636-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 87,
+      "question": "Kumaha sih tindak lanjut ti laporan abdi ngeunaan teu meunang hak gaji di Cicalengka?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-5495636-00",
+      "matched_source_id": "5495636",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-5495636-00",
+      "top_hit_source_id": "5495636",
+      "top_hit_score": 1.2438395261764525,
+      "top_hit_base_score": 0.8438395261764526,
+      "top_hit_rerank_score": 1.2438395261764525,
+      "expected_source_ids": [
+        "5495636"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-5495636-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 88,
+      "question": "Gimana sih tanggapan pihak instansi tentang aduan SDN Cipeundeuy yang butuh lapangan upacara sama peremajaan ruang guru?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6212926-01",
+      "matched_source_id": "6212926",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6212926-01",
+      "top_hit_source_id": "6212926",
+      "top_hit_score": 1.274409019947052,
+      "top_hit_base_score": 0.874409019947052,
+      "top_hit_rerank_score": 1.274409019947052,
+      "expected_source_ids": [
+        "6212926"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6212926-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 89,
+      "question": "gmn tanggapan pihak instansi ttg aduan soal SDN Cipeundeuy yg butuh lapangan upacara n peremajaan ruang guru?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6212926-01",
+      "matched_source_id": "6212926",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6212926-01",
+      "top_hit_source_id": "6212926",
+      "top_hit_score": 1.2545174598693847,
+      "top_hit_base_score": 0.8545174598693848,
+      "top_hit_rerank_score": 1.2545174598693847,
+      "expected_source_ids": [
+        "6212926"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6212926-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 90,
+      "question": "Kumaha tanggapan pihak instansi ngeunaan pengaduan ngeunaan SDN Cipeundeuy anu kedah lapangan upacara jeung peremajaan ruang guru?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-6212926-01",
+      "matched_source_id": "6212926",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-6212926-01",
+      "top_hit_source_id": "6212926",
+      "top_hit_score": 1.2882790207862853,
+      "top_hit_base_score": 0.8882790207862854,
+      "top_hit_rerank_score": 1.2882790207862853,
+      "expected_source_ids": [
+        "6212926"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-6212926-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 91,
+      "question": "Gimana sih tindak lanjutnya buat masalah jalan gang yang turun ke bawah di Desa Banjaran Wetan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": null,
+      "matched_by": null,
+      "matched_chunk_id": null,
+      "matched_source_id": null,
+      "reciprocal_rank": 0.0,
+      "top_hit_chunk_id": "pengaduan-8560701-01",
+      "top_hit_source_id": "8560701",
+      "top_hit_score": 1.2506655693054198,
+      "top_hit_base_score": 0.8506655693054199,
+      "top_hit_rerank_score": 1.2506655693054198,
+      "expected_source_ids": [
+        "7881997"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7881997-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 92,
+      "question": "gmn tindak lanjutan trhdp msalah jaln gang yg turun ke bwh di Dsa Bnjaran Wetan?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "pengaduan-7881997-00",
+      "matched_source_id": "7881997",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7881997-00",
+      "top_hit_source_id": "7881997",
+      "top_hit_score": 1.0328151953847784,
+      "top_hit_base_score": 0.8328151953847784,
+      "top_hit_rerank_score": 1.0328151953847784,
+      "expected_source_ids": [
+        "7881997"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7881997-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 93,
+      "question": "Kumaha tindak lanjutna ngeunaan masalah jalanna gang anu turun ka handap di Desa Banjaran Wetan, atuh?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "pengaduan-7881997-01",
+      "matched_source_id": "7881997",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "pengaduan-7881997-01",
+      "top_hit_source_id": "7881997",
+      "top_hit_score": 1.2451896905899047,
+      "top_hit_base_score": 0.8451896905899048,
+      "top_hit_rerank_score": 1.2451896905899047,
+      "expected_source_ids": [
+        "7881997"
+      ],
+      "expected_chunk_ids": [
+        "pengaduan-7881997-00"
+      ],
+      "retrieval_filters": {
+        "jenis": "pengaduan",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 94,
+      "question": "min, jenis pngaduan yg diatur dlm Perbup No 290 Thn 2023 ttg Pedoman Penyelenggaraan Pengelolaan pngaduan di Lingkungan Pemkab Bandung, brp ya?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-009",
+      "matched_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-009",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 1.5969227075576782,
+      "top_hit_base_score": 0.8969227075576782,
+      "top_hit_rerank_score": 1.5969227075576782,
+      "expected_source_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung"
+      ],
+      "expected_chunk_ids": [
+        "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-014"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 95,
+      "question": "Pengaduan saya kok belum kelar-kelar, sebenarnya paling lama itu berapa hari sih prosesnya?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-waktu-penyelesaian",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-waktu-penyelesaian",
+      "top_hit_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "top_hit_score": 1.4976416659355163,
+      "top_hit_base_score": 0.8276416659355164,
+      "top_hit_rerank_score": 1.4976416659355163,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-waktu-penyelesaian"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 96,
+      "question": "Laporan saya itu prosesnya lewatin tahapan apa aja sih dari saya lapor sampai kelar?",
+      "behavior": "answer_list",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 4,
+      "matched_by": "source_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-alur-verifikasi-admin",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 0.25,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-01",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 0.9870487785339356,
+      "top_hit_base_score": 0.8270487785339355,
+      "top_hit_rerank_score": 0.9870487785339356,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-identitas"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 97,
+      "question": "Kok saya diminta lengkapi dokumen lagi, padahal saya udah lapor?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 3,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-alur-verifikasi-admin",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 0.3333333333333333,
+      "top_hit_chunk_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung-058-01",
+      "top_hit_source_id": "perbup-no-290-thn-2023-tentang-pedoman-penyelenggaraan-pengelolaan-pengaduan-di-lingkungan-pemkab-bandung",
+      "top_hit_score": 0.9822047230776619,
+      "top_hit_base_score": 0.8222047230776619,
+      "top_hit_rerank_score": 0.9822047230776619,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-alur-verifikasi-admin"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 98,
+      "question": "Kenapa ya laporan saya bisa gak ditindaklanjuti?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "chunk_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-keterkaitan-peringatan-pencatatan",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-keterkaitan-peringatan-pencatatan",
+      "top_hit_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "top_hit_score": 0.9079550629002707,
+      "top_hit_base_score": 0.8279550629002708,
+      "top_hit_rerank_score": 0.9079550629002707,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-keterkaitan-peringatan-pencatatan"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 99,
+      "question": "Setelah laporan saya dijawab, itu udah otomatis kelar atau masih ada proses lagi?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 1,
+      "matched_by": "source_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-alur-perangkat-daerah",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 1.0,
+      "top_hit_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-alur-perangkat-daerah",
+      "top_hit_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "top_hit_score": 0.9960334634780884,
+      "top_hit_base_score": 0.8360334634780884,
+      "top_hit_rerank_score": 0.9960334634780884,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-waktu-penyelesaian"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    },
+    {
+      "id": 100,
+      "question": "Laporan saya udah diteruskan ke dinas terkait, itu di sana diproses gimana lagi sampai saya dapat jawaban?",
+      "behavior": "answer_fact",
+      "answerable": true,
+      "source_scoped": false,
+      "rank": 2,
+      "matched_by": "source_id",
+      "matched_chunk_id": "sop-penyelesaian-pengaduan-sp4n-lapor-alur-verifikasi-admin",
+      "matched_source_id": "sop-penyelesaian-pengaduan-sp4n-lapor",
+      "reciprocal_rank": 0.5,
+      "top_hit_chunk_id": "no-38-tahun-2005-005-24",
+      "top_hit_source_id": "no-38-tahun-2005",
+      "top_hit_score": 1.0447887897491455,
+      "top_hit_base_score": 0.8447887897491455,
+      "top_hit_rerank_score": 1.0447887897491455,
+      "expected_source_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor"
+      ],
+      "expected_chunk_ids": [
+        "sop-penyelesaian-pengaduan-sp4n-lapor-alur-perangkat-daerah"
+      ],
+      "retrieval_filters": {
+        "jenis": "regulasi",
+        "tipe_dokumen": null,
+        "source_id": null
+      }
+    }
+  ]
+}
