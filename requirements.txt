@@ -1,0 +1,24 @@
+# Daftar paket pihak ketiga yang diimpor kode inti.
+# Versi tidak dipatok karena environment penelitian tidak mencatatnya.
+# Instal PyTorch terpisah sesuai perangkat (lihat README).
+torch
+transformers
+sentence-transformers
+chromadb
+langchain-huggingface
+langchain-ollama
+langchain-openai
+langchain-anthropic
+langchain-text-splitters
+ragas
+openai
+docling
+PyMuPDF
+pandas
+openpyxl
+scikit-learn
+PyYAML
+python-dotenv
+requests
+streamlit
+altair
